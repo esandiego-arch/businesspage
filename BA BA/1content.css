@@ -1,0 +1,274 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  background-color: #FAF8F5;
+  margin: 0;
+  padding: 0;
+}
+
+.text-burgundy {
+  color: #5C4033;
+}
+
+.custom-navbar {
+  background-color: #FAF8F5;
+  border-bottom: 1px solid #EAE5DE;
+  padding: 0.8rem 0;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #212529;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #2b2b2b;
+  font-size: 0.85rem;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #5C4033;
+  border-bottom: 2px solid #5C4033;
+}
+
+.hero-section {
+  background-color: #FAF8F5;
+}
+
+.btn-burgundy-pill {
+  background-color: #212529;
+  color: #ffffff;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.btn-burgundy-pill:hover {
+  background-color: #5C4033;
+  color: #ffffff;
+}
+
+.btn-burgundy-fill {
+  background-color: #5C4033;
+  color: #ffffff;
+  border-radius: 50px;
+  border: 2px solid #5C4033;
+  text-decoration: none;
+}
+
+.btn-burgundy-fill:hover {
+  background-color: #282827;
+  border-color: #282827;
+  color: #ffffff;
+}
+
+.btn-burgundy-outline {
+  background-color: transparent;
+  color: #282827;
+  border: 2px solid #282827;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.btn-burgundy-outline:hover {
+  background-color: #282827;
+  color: #ffffff;
+}
+
+.about-main-table {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+
+.about-description {
+  font-size: 16px;
+  color: #666666;
+  max-width: 800px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.feature-card-cell {
+  background-color: #ffffff;
+  border: 1px solid #E5E0D8;
+  border-radius: 0; 
+  padding: 25px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.feature-card-cell:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  border-color: #282827;
+  cursor: pointer;
+}
+
+.card-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.books-section-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #212529; 
+  letter-spacing: 1px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  display: inline-block;
+  padding: 6px 18px;
+  margin: 0 4px;
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #D5D0C8;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.filter-btn:hover,
+.filter-btn.active-filter {
+  background-color: #5C4033;
+  color: #ffffff;
+  border-color: #282827;
+}
+
+.book-card-cell {
+  background-color: #ffffff;
+  border: 1px solid #E5E0D8;
+  border-radius: 0; 
+  padding: 15px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.book-card-cell:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  border-color: #5C4033;
+}
+
+.genre-badge {
+  display: inline-block;
+  font-size: 10px;
+  text-transform: uppercase;
+  background-color: #F0EBE1;
+  color: #555555;
+  padding: 2px 8px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.book-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin: 0 0 5px 0;
+  height: 40px;
+}
+
+.book-author {
+  font-size: 12px;
+  color: #666666;
+  margin: 0 0 10px 0;
+}
+
+.book-rating {
+  font-size: 12px;
+  color: #D4AC0D;
+  margin: 0 0 15px 0;
+}
+
+.book-price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #212529;
+}
+
+.reserve-btn {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #5C4033;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.reserve-btn:hover {
+  background-color: #282827;
+  color: #ffffff;
+}
+
+.sidebar-body {
+  background-color: #5C4033;
+  padding: 20px;
+}
+
+.sidebar-title {
+  color: #5C4033;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sidebar-list {
+  padding-left: 15px;
+  list-style-type: none;
+}
+
+.sidebar-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: block;
+  padding: 4px 0;
+}
+
+.sidebar-link:hover {
+  color: #282827;
+}
+
+.genre-btn {
+  color: #faf8f5;
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #faf8f5;
+  color: #282827;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.list-item {
+  color:#212529;
+}
