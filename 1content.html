@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Content</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="1content.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body id="home">
+
+    <nav class="navbar navbar-expand-lg sticky-top custom-navbar py-2 px-3">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="1content.html#home" target="contentFrame">
+      <h2 class="brand-name m-0">BOUND & BEYOND</h2>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-uppercase fw-semibold">
+        <li class="nav-item">
+          <a class="nav-link me-lg-3" href="1content.html#home" target="contentFrame">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-lg-3" href="1content.html#genres" target="contentFrame">GENRES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-lg-3" href="1content.html#reservation" target="contentFrame">RESERVATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-lg-3" href="1content.html#articles" target="contentFrame">ARTICLES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="1content.html#books" target="contentFrame">BOOKS</a>
+        </li>
+      </ul>
+
+      <a href="1content.html#reservation" target="contentFrame" class="btn btn-burgundy-pill btn-sm px-4 py-2">Reserve A Book</a>
+  </nav>
+
+
+  <header class="text-center py-5 hero-section" id="about">
+    <div class="container py-4">
+      <h1 class="display-3 fw-bold text-dark mb-2">Bound & Beyond</h1>
+      <p class="fst-italic text-burgundy fs-3 mb-4">"Discover Stories Beyond the Pages."</p>
+
+      <p>
+        Bound & Beyond is a modern online bookstore designed for passionate readers, casual<br>
+        browsers, and literary enthusiasts alike. We bridge the gap between physical stories and digital<br>
+        convenience by offering an interactive platform where finding your next great read is effortless.
+      </p>
+        <a href="#catalog" class="btn btn-burgundy-fill btn-lg px-4 py-2">Explore Books</a>
+        <a href="#about" class="btn btn-burgundy-outline btn-lg px-4 py-2">About Website</a>
+  </header>
+
+  <table align="center" border="0" cellpadding="15" cellspacing="15" width="100%">
+    <tr>
+      <td class="feature-card-cell" valign="top" width="25%">
+        <h3 class="card-heading">Browse and Discover</h3>
+        <p class="card-text">Explore an extensive, beautifully organized catalog complete with detailed book synopses, author profiles, pricing, and availability.</p>
+      </td>
+      <td class="feature-card-cell" valign="top" width="25%">
+        <h3 class="card-heading">Reserve with Ease</h3>
+        <p class="card-text">Secure physical copies or upcoming releases in advance with a simple, hassle-friendly reservation system so you never miss out.</p>
+      </td>
+      <td class="feature-card-cell" valign="top" width="25%">
+        <h3 class="card-heading">View and Preview</h3>
+        <p class="card-text">Access rich preview information, high-resolution cover art, and organized genre categories to easily decide what to read next.</p>
+      </td>
+      <td class="feature-card-cell" valign="top" width="25%">
+        <h3 class="card-heading">Rate and Review</h3>
+        <p class="card-text">Share your thoughts, rate your latest reads, and explore community reviews and ratings to make informed choices based on real feedback.</p>
+      </td>
+    </tr>
+  </table>
+
+  <table id="catalog" class="books-main-table" align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+    <tbody>
+      <tr>
+        <td align="center">
+          <h1 class="books-section-title">TOP-SELLING</h1>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" class="py-3">
+          <a href="#" class="filter-btn active-filter">Popular</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table align="center" border="0" cellpadding="10" cellspacing="10" width="100%">
+            <tr>
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg" width="100%" height="500" alt="To Kill a Mockingbird" class="book-img"><br><br>
+                <span class="genre-badge">Classic</span>
+                <span class="genre-badge">Coming-of-Age</span>
+                <h3 class="book-title">To Kill a Mockingbird</h3>
+                <p class="book-author">By Harper Lee</p>
+                <p class="book-rating">(4.8)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP650.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1546112331i/3836.jpg" width="100%" height="500" alt="Don Quixote" class="book-img"><br><br>
+                <span class="genre-badge">Fiction</span>
+                <span class="genre-badge">Satire</span>
+                <span class="genre-badge">Chivalric Romance</span>
+                <h3 class="book-title">Don Quixote</h3>
+                <p class="book-author">By Miguel de Cervantes</p>
+                <p class="book-rating">(5.0)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP790.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg" width="100%" height="500" alt="The Great Gatsby" class="book-img"><br><br>
+                <span class="genre-badge">Drama</span>
+                <span class="genre-badge">Satire</span>
+                <span class="genre-badge">Tragedy</span>
+                <span class="genre-badge">Fiction</span>
+                <h3 class="book-title">The Great Gatsby</h3>
+                <p class="book-author">By F. Scott Fitzgerald</p>
+                <p class="book-rating">(4.2)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP580.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://cdn.kobo.com/book-images/1bcc2002-3301-46bf-8153-5058ce300fca/353/569/90/False/crime-and-punishment-401.jpg" width="100%" height="500" alt="Crime and Punishment" class="book-img"><br><br>
+                <span class="genre-badge">Philosophy</span>
+                <span class="genre-badge">Psychological</span>
+                <span class="genre-badge">Crime Fiction</span>
+                <h3 class="book-title">Crime and Punishment</h3>
+                <p class="book-author">By Fyodor Dostoevsky</p>
+                <p class="book-rating">(4.7)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP850.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+  <table id="articles" align="center" border="0" cellpadding="20" cellspacing="0" width="80%">
+    <tr>
+      <td>
+        <h2>Reading books is not just a pleasure: it helps our minds to heal</h2>
+        <p>by Peter Leyland</p>
+        <br>
+        <p>Through my own struggles and in teaching bibliotherapy to students, I know that books can help to heal minds and hearts</p>
+        <br>
+        <p>A few years ago, I had a breakdown from what would now be termed ‘burnout’. It was probably related to the early death of my father after a long-term illness when I was 12, and from which I had escaped into stories and poetry. As I lay in bed convalescing, I turned to books again, reading through the whole of the Raj Quartet (1966-75) by Paul Scott. His richly layered plot and superbly drawn characters in an Indian setting undoubtedly helped me to recover.</p>
+        <br>
+        <p>There have been other occasions in my life when reading has been more than simple escapism. A partial loss of hearing in my 30s when I was teaching in schools caused me to resort to hearing aids, which I found extremely difficult. However, I found salvation in Benjamin Zephaniah’s memorable poetry reading at the Hay Festival in Wales at a time when I was testing out modern hearing aids. Zephaniah invited his audience on to the stage to dance to the music of his poetry collection The Dread Affair (1985) – and we did.</p>
+      </td>
+    </tr>
+  </table>
+
+  <table id="articles" align="center" border="0" cellpadding="20" cellspacing="0" width="80%">
+    <tr>
+      <td>
+        <h2>The Power of Books: Why Reading Still Matters</h2>
+        <p>Lorenzo Montanez</p>
+        <p>In the world we live in today, there’s an abundance of things constantly vying for our attention. Indeed, smartphones,
+        streaming services, podcasts, and the general hustle and bustle of day-to-day life often compete for our focus.
+        Despite all this, the power of the written (or typed) word hasn’t dwindled, although its form has certainly changed in many ways.
+        Whether bound in paper or stored on a screen, books hold power far beyond mere entertainment. They can serve as vital educational tools,
+        gateways to knowledge that foster growth and progress. They can also enhance one’s creative and critical thinking skills, abilities that can benefit an
+        individual’s life in general. Perhaps especially important given the unrelenting speed and clutter of modern life, books can have a positive impact on
+        mental well-being, helping to relax and reduce stress.
+        With that said, let’s take a closer look at the power within those pages.</P>
+      </td>
+    </tr>
+  </table>
+
+  <table id="articles" align="center" border="0" cellpadding="20" cellspacing="0" width="80%">
+    <tr>
+      <td>
+        <h2>The Joy of Reading Books About Books</h2>
+        <p>Susan Coll Recommends John Tottenham, Emily Henry, R.F. Kuang, and More</p>
+        <p>Books about books, or bookstores, or people who work in bookstores, or in publishing, or in libraries,
+          or anything book-adjacent, are not in short supply, perhaps for the obvious reason that writers are by definition
+          people who are drawn to, and often write about, books. Display tables full of books about books are a staple at many a
+          bookstore; in fact as I began to work on this essay, I learned that the bookstore where I work was in the process of putting together
+          a September display table featuring books about working in bookstores</P>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+    <table id="books" class="books-main-table" align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+    <tbody>
+      <tr>
+        <td align="center">
+          <h1 class="books-section-title">BOOKS HERE</h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table align="center" border="0" cellpadding="10" cellspacing="10" width="100%">
+            <tr>
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://www.lukeharkness.com/wp-content/uploads/2025/06/1509848622.webp" width="100%" height="500" alt="To Kill a Mockingbird" class="book-img"><br><br>
+                <span class="genre-badge">War Fiction</span>
+                <span class="genre-badge">Historical Fiction</span>
+                <h3 class="book-title">The Nightingale</h3>
+                <p class="book-author">By Kristin Hannah</p>
+                <p class="book-rating">(4.7)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP650.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1670795825i/62627512.jpg" width="100%" height="500" alt="Don Quixote" class="book-img"><br><br>
+                <span class="genre-badge">Fiction</span>
+                <span class="genre-badge">Romance</span>
+                <span class="genre-badge">Adaptation</span>
+                <h3 class="book-title">It Ends With Us</h3>
+                <p class="book-author">By Colleen Hoover</p>
+                <p class="book-rating">(3.9)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP790.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBo21mZu6tkHhN2TGsNcKN8S1-4yiGiTQe-wEB_h0u5nXRu1vlOu23XKTv&s=10" width="100%" height="500" alt="The Great Gatsby" class="book-img"><br><br>
+                <span class="genre-badge">Mystery</span>
+                <span class="genre-badge">Crime Fiction</span>
+                <span class="genre-badge">Humourous</span>
+                <span class="genre-badge">Comic</span>
+                <h3 class="book-title">The Thursday Murder Club</h3>
+                <p class="book-author">By Richard Osman</p>
+                <p class="book-rating">(4.7)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP380.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://www.europecomics.com/assets/uploads/2018/05/CV1_BEAUX-ETES-EUC_01-1-e1527599698533.jpg" width="100%" height="500" alt="Crime and Punishment" class="book-img"><br><br>
+                <span class="genre-badge">Slice of Life</span>
+                <span class="genre-badge">Scifi</span>
+                <span class="genre-badge">Family Found</span>
+                <h3 class="book-title">Glorious Summer</h3>
+                <p class="book-author">By Zidrou</p>
+                <p class="book-rating">(4.4)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP450.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+    <table id="books" class="books-main-table" align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+    <tbody>
+      <tr>
+        <td>
+          <table align="center" border="0" cellpadding="10" cellspacing="10" width="100%">
+            <tr>
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://atlanticbooks.com/cdn/shop/files/9788124806944_512x798.webp?v=1769306572" width="100%" height="500" alt="To Kill a Mockingbird" class="book-img"><br><br>
+                <span class="genre-badge">Biography</span>
+                <span class="genre-badge">Literary nonfiction</span>
+                <h3 class="book-title">The Diary of a Young Girl</h3>
+                <p class="book-author">By Anne Frank</p>
+                <p class="book-rating">(5.0)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP650.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659407155l/61714633.jpg" width="100%" height="500" alt="Don Quixote" class="book-img"><br><br>
+                <span class="genre-badge">History</span>
+                <span class="genre-badge">True Crime</span>
+                <h3 class="book-title">The Wager: A Tale of Shipwreck, Mutiny and Murder</h3>
+                <p class="book-author">David Grann</p>
+                <p class="book-rating">(4.9)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP590.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://media.newyorker.com/photos/6941bfb137a547e526d4db83/master/w_1600%2Cc_limit/GOLDFIELD-BEST-COOKBOOKS2025-LINGER.jpg" width="100%" height="500" alt="The Great Gatsby" class="book-img"><br><br>
+                <span class="genre-badge">Cookbook</span>
+                <h3 class="book-title">Lingre</h3>
+                <p class="book-author">Hetty Lui McKinnon</p>
+                <p class="book-rating">(4.7)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP380.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://www.sup.org/_next/image?url=https%3A%2F%2Fsupress.sites-pro.stanford.edu%2Fsites%2Fsupress%2Ffiles%2Fmedia%2Fcovers%2F11400.jpg&w=2560&q=75" width="100%" height="500" alt="Crime and Punishment" class="book-img"><br><br>
+                <span class="genre-badge">Business and Economis</span>
+                <h3 class="book-title">Economics of Business Evaluation</h3>
+                <p class="book-author">By Patrick L. Anderson</p>
+                <p class="book-rating">(4.6)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP450.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      <table id="books" class="books-main-table" align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+    <tbody>
+      <tr>
+        <td>
+          <table align="center" border="0" cellpadding="10" cellspacing="10" width="100%">
+            <tr>
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://images.gr-assets.com/books/1338924054l/13455782.jpg" width="100%" height="500" alt="To Kill a Mockingbird" class="book-img"><br><br>
+                <span class="genre-badge">Scifi</span>
+                <span class="genre-badge">Young Adult</span>
+                <span class="genre-badge">Romance Thriller</span>
+                <h3 class="book-title">Shatter Me</h3>
+                <p class="book-author">By Tahereh Mafi</p>
+                <p class="book-rating">(4.7)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP850.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://thumb.wikimedia.org/wikipedia/en/thumb/1/1e/TheSongofAchilles.png/250px-TheSongofAchilles.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" width="100%" height="500" alt="Don Quixote" class="book-img"><br><br>
+                <span class="genre-badge">History</span>
+                <span class="genre-badge">Fiction</span>
+                <span class="genre-badge">Myth</span>
+                <h3 class="book-title">The Song of Achilles</h3>
+                <p class="book-author">By Madeline Miller</p>
+                <p class="book-rating">(4.9)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP890.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://upload.wikimedia.org/wikipedia/en/8/84/Diary_of_a_Wimpy_Kid_book_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" width="100%" height="500" alt="The Great Gatsby" class="book-img"><br><br>
+                <span class="genre-badge">Children's Comedy</span>
+                <h3 class="book-title">The Diary of A Wimpy Kd</h3>
+                <p class="book-author">By Jeff Kinney</p>
+                <p class="book-rating">(5.0)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP900.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td class="book-card-cell" valign="top" width="25%">
+                <img src="https://geronimostiltoncom.cdn-immedia.net/upload/assets/files/US,116,-1,746/2734-0.jpg" width="100%" height="500" alt="Crime and Punishment" class="book-img"><br><br>
+                <span class="genre-badge">Children's Book</span>
+                <span class="genre-badge">Comics</span>
+                <h3 class="book-title">Lost Treasure of the Emerald eye</h3>
+                <p class="book-author">By Geronimo Stilton</p>
+                <p class="book-rating">(4.5)</p>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left" class="book-price">PHP750.00</td>
+                    <td align="right"><a href="#reservation" class="reserve-btn">Reserve</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
+    <h2 class="list-item" id="genres">GENRES</h2>
+<table>
+    <tr>
+        <td align="right"><a class="genre-btn">Fiction</a></td>
+    </tr>
+</table>
+<ul type="disc">
+    <li class="list-item">Fantasy</li>
+    <li class="list-item">Science Fiction</li>
+    <li class="list-item">Mystery & Crime</li>
+    <li class="list-item">Thriller & Suspense</li>
+    <li class="list-item">Romance</li>
+    <li class="list-item">Horror</li>
+    <li class="list-item">Historical Fiction</li>
+    <li class="list-item">Literary Fiction</li>
+    <li class="list-item">Action & Adventure</li>
+    <li class="list-item">Contemporary / Slice of Life</li>
+</ul>
+
+<table>
+    <tr>
+        <td align="right"><a class="genre-btn">Non-Fiction</a></td>
+    </tr>
+</table>
+<ul type="disc">
+    <li class="list-item">Biography & Memoir</li>
+    <li class="list-item">Self-Help & Personal Development</li>
+    <li class="list-item">Business & Economics</li>
+    <li class="list-item">History</li>
+    <li class="list-item">Science & Technology</li>
+    <li class="list-item">Arts & Humanities</li>
+    <li class="list-item">Health, Fitness & Wellness</li>
+    <li class="list-item">Cookbooks & Food</li>
+    <li class="list-item">Travel & Adventure</li>
+    <li class="list-item">Religion & Spirituality</li>
+</ul>
+
+<table>
+    <tr>
+        <td align="right"><a class="genre-btn">Age-Based Categories</a></td>
+    </tr>
+</table>
+<ul type="disc">
+    <li class="list-item">Children’s Books</li>
+    <li class="list-item">Young Adult (YA)</li>
+    <li class="list-item">New Adult (NA)</li>
+    <li class="list-item">Adult</li>
+</ul>
+
+<table>
+    <tr>
+        <td align="right"><a class="genre-btn">Specialized & Graphic Formats</a></td>
+    </tr>
+</table>
+<ul type="disc">
+    <li class="list-item">Comics & Graphic Novels</li>
+    <li class="list-item">Poetry</li>
+    <li class="list-item">Drama & Plays</li>
+    <li class="list-item">Anthologies & Short Stories</li>
+</ul>
+
+
+        <table id="reservation" bgcolor="#B6D0E2"  border="5" cellpadding="0" cellspacing="0" width="100%">
+        <form>
+            <fieldset>
+                <legend><h1>Reservation Form</h1></legend>
+            <label for="fname">First Name* :</label><br>
+            <input type="text" name="fname" id="fname" placeholder="Elaine"><br>
+            <br>
+
+            <label for="lname">Last Name* :</label><br>
+            <input type="text" name="lname" id="lname" placeholder="San Diego"><br>
+            <br>
+
+            <label for="email">Email* :</label><br>
+            <input type="email" name="email" id="email" placeholder="e.sandiego@gmail.com"><br>
+            <br>
+
+            <label for="pass">Password* :</label><br>
+            <input type="password" name="pass" id="pass" minlength="8"><br>
+            <br>
+
+
+            <p>How many days?* :</p>
+            <input type="radio" name="updates" value="cs" id="updates-cs" checked>
+            <label for="updates-cs">Fiction</label>
+
+            <input type="radio" name="updates" value="dev" id="updates-dev">
+            <label for="updates-dev">Non-Fiction</label>
+
+            <input type="radio" name="updates" value="dev" id="updates-dev">
+            <label for="updates-dev">Age-Based</label>
+
+            <input type="radio" name="updates" value="des" id="updates-des">
+            <label for="updates-des">Specialized</label><br>
+
+            <p>Enter your reservation date*:</p>
+            <input type="date"><br>
+
+            <input type="submit">
+
+            </fieldset>
+        </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
